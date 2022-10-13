@@ -1,0 +1,225 @@
+
+
+.section-header{
+    
+}
+.section-nav{
+    display: flex; 
+    padding: 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-nav ul {
+    display: flex;
+    gap: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: all 0.8s;
+}
+
+.section-nav ul a {
+    color: #495057;
+}
+
+.section-nav ul a:hover {
+    color: #212529;
+}
+
+.logo {
+    width: 4.8rem;
+}
+.nav-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.section-main {
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-columns: 85fr 15fr;
+    padding: 4.6rem;
+}
+
+.btns {
+    padding: 3.6rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.apj-logo img {
+    display: flex;
+    max-width: 100%;
+    max-height: 140%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.icai-light {
+    padding: 1.8rem;
+    position: relative;
+    margin-top: -8rem;
+
+}
+.icai-light h1,.icai-light h2 {
+    font-size: 12.8rem;
+    color: #2125293a;
+    transform: rotate(-90deg);
+ margin-top: 5.8rem;
+    align-items: center;
+    top: -70%;
+}
+
+.section-levels{
+    display: flex;
+    justify-content: space-around;
+    padding: 4.8rem 2.8rem 6.8rem 0;
+}
+.level-a {
+    border: #f59f00 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    padding: 3.4rem;
+
+}
+.level-a:hover {
+    border: #edbf6a 2px solid;
+
+}
+
+.level-name:hover {
+    color: #edbf6a;
+}
+.level-ion {
+    width:2.4rem;
+    height: 2.4rem;
+    font-size: 1.8rem;
+    color: #212529;
+}
+.level-name {
+    font-size: 1.8rem;
+    color: #f59f00;
+    margin-top: 7px;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 30fr 30fr 40fr;
+    padding: 4.8rem 3rem;
+    border-top: solid 1px rgb(216, 216, 216);
+}
+.social-icons {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.social-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #f59f00;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+
+}
+
+.contactt {
+    color: #212529;
+    font-size: 1.4rem;
+    transition: border 1s;
+    transition: color 0.5s;
+}
+.contactt:hover {
+    color: #f59f00;
+    border-bottom: 1px solid #f59f00;
+}
+.address{}
+.heading{
+    color: #495057af;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.add-des{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #495057;
+    letter-spacing: 0.4px;
+
+}
+
+.section-about {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    padding: 7rem 2rem;
+    gap: 4rem;
+    align-items: center;
+}
+
+.des {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+    color: #495057;
+}
+.about {
+    padding: 2rem;
+    
+}
+
+.about-heading {
+    color: #f59f00;
+    font-size: 2rem;
+}
+.about-description {
+    color: #495057;
+    font-size: 1.4rem;
+    padding: 1.6rem 0;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+.level-heading {
+    text-align: center;
+    padding-top: 6.8rem ;
+}
+
+/* Media */
+
+@media (max-width: 91.5rem) {
+    
+    .apj-logo img {
+        width: 160%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .section-about {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media (max-width: 912px) {
+    .section-levels {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: stretch;
+        padding: 4rem;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+    }
+    .apj-logo img {
+        
+    }
+    .icai-light {
+        display: none;
+    }
+}
